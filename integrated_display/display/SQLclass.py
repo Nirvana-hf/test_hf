@@ -164,6 +164,5 @@ if __name__ == '__main__':
     # print newmofang(searchtype='vv_platform_day',start_date='20170301',end_date='20170307').sql_query()
     # print newmofang(searchtype='vv_terminal_day', start_date='20170301', end_date='20170307').sql_query()
     aa = Newmofang(searchtype='uv_pid_day_avg',start_date='20170306', end_date='20170312').sql_query()
-    print aa
     # print newmofang('vv','20170102','20170302').sql_query()
     # print newmofang('uv','20170102','20170302').sql_query()
